@@ -34,7 +34,7 @@ router.post('/', (req, res) => {
     const { id, title, description } = req.body;
     // if (!id || !title || !description){
     //     return res.status(400).json({ msg: 'Please fill required field'})
-    // }
+    // } testing
     
     const newVideo = {
         id,
